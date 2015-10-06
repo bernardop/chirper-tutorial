@@ -5,6 +5,7 @@ export default function() {
     this.get('/users/:id');
     this.get('/chirps');
     this.get('/chirps/:id');
+    this.post('/chirps');
 }
 
 /*
